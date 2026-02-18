@@ -1,0 +1,42 @@
+/*
+ il{
+    list-style-type: square;
+    list-style-image: url("newborn.jpg");
+}
+ol{
+    list-style-type: upper-roman;
+}
+ */
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol{
+    background: #ffeeee;
+    padding: 15px;
+}
+ol li{
+    background: #ffe555;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+}
+tbody tr:nth-child(even){
+    background-color: red;
+}

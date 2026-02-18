@@ -1,4 +1,5 @@
 body{
+
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,6 +15,7 @@ header{
 .header-bottom{
     text-align: center;
     margin-top: 20px;
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -23,4 +25,32 @@ nav ul{
 nav a{
     color: white;
     text-decoration: none;
+}
+button{
+    padding: 8px 15px;
+    background-color: aqua;
+    border: none;
+}
+main{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+}
+footer{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+input,textarea{
+    width: 250;
+    margin: 5;
+    padding: 5;
+}
+.social-media{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
 }
