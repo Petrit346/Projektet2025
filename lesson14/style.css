@@ -34,3 +34,12 @@ input:out-of-range{
 input:in-range{
     border: 3px solid red;
 }
+p::first-line{
+    color: orange;
+}
+p::first-letter{
+    font-size: 40px;
+}
+div{
+    opacity: 0.5;
+}
