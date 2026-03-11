@@ -1,0 +1,54 @@
+:root{
+    --primary--color:darkblue;
+    --secondary--color:lightblue;
+    --padding :20px;
+}
+h1{
+    background-color: var(--primary--color);
+    color: var(--secondary--color);
+    padding: var(--padding);
+}
+p{
+    background-color: var(--secondary--color);
+}
+#lesson1{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background: var(--primary--color);
+}
+#lesson2{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background: var(--primary--color);
+    border: 3px solid green;
+}
+#lesson3{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px 60px 5px;
+    background: var(--primary--color);
+    border: 3px solid green;
+
+}
+#lesson4{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px/30px;
+    background: var(--primary--color);
+    border: 3px solid green;
+
+}
+#lesson5{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px/10px;
+    background: var(--primary--color);
+    border: 3px solid green;
+}
