@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+.container{
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin: 20px;
+    justify-content: flex-end;
+}
+.logo{
+    margin: 0px;
+    float: left;
+    font-size: 28px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: wheat;
+}
+.hero content button{
+    padding: 15pc 30px;
+    background-color: wheat;
+    color: white;
+    border: none;
+    font-size: 30px; 
+}
+.container1{
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
