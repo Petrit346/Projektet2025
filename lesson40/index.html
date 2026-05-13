@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoli Im Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigimi -->
+    <nav class="navbar">
+        <div class="logo">Portofoli<span>Im</span></div>
+        <ul class="nav-links">
+            <li><a href="#rreth-meje">Rreth Meje</a></li>
+            <li><a href="#projektet">Projekte</a></li>
+            <li><a href="#kontakti">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seksioni Kryesor (Hero) -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Përshëndetje, unë jam <span>Petriti</span></h1>
+            <p>Zhvillues Web (HTML & CSS Specialist)</p>
+            <a href="#projektet" class="btn">Shiko Punët e Mia</a>
+        </div>
+    </header>
+
+    <!-- Seksioni Rreth Meje -->
+    <section id="rreth-meje" class="section">
+        <h2>Rreth Meje</h2>
+        <p>Une jam Petrit Abazi 15 vjec une shkoj ne shkollen digjitale ne Prishtine </p>
+    </section>
+
+    <!-- Seksioni i Projekteve -->
+    <section id="projektet" class="section bg-light">
+        <h2>Projektet e Mia</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Projekti 1</h3>
+                <p>Një faqe interneti e ndërtuar plotësisht me HTML dhe CSS statike.</p>
+            </div>
+            <div class="project-card">
+                <h3>Projekti 2</h3>
+                <p>Dizajn modern i një dyqani online me fokus te përdoruesi.</p>
+            </div>
+            <div class="project-card">
+                <h3>Projekti 3</h3>
+                <p>Platformë portfolio personale e optimizuar për pajisje celulare.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seksioni i Kontaktit -->
+    <section id="kontakti" class="section">
+        <h2>Më Kontaktoni</h2>
+        <form class="contact-form" onsubmit="event.preventDefault();">
+            <input type="text" placeholder="Emri Juaj" required>
+            <input type="email" placeholder="Email Adresa" required>
+            <textarea placeholder="Mesazhi Juaj" rows="5" required></textarea>
+            <button type="submit" class="btn">Dërgo Mesazhin</button>
+        </form>
+    </section>
+
+    <!-- Fundi i Faqes (Footer) -->
+    <footer>
+        <p>&copy; 2026 Portofoli Im. Të gjitha të drejtat e rezervuara.</p>
+    </footer>
+
+</body>
+</html>
