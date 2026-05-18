@@ -41,6 +41,20 @@ console.log(car.getkilometers);
 alert(car.name);
 alert(car['color']);
 
+function Computer(name,cpu,ram,row){
+    this.name=name;
+    this.cpu=cpu;
+    this.ram=ram;
+    this.row=row;
+}
 
-    
+var com1= new Computer("macbook", "8-core", "8-gb", "8-gb")
+var com2= new Computer("macbook2", "6-core", "8-gb", "8-gb")
 
+function Car(name,color,year,modelin){
+    this.name=name;
+    this.color=color;
+    this.year=year;
+    this.modelin=modelin;  
+}
+var Car1= new Car("audi2", "black","2026","Q3")

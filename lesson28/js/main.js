@@ -1,0 +1,28 @@
+// var buttoni1=document.getElementById('btn1');
+
+// buttoni1.onclick=function(){
+//     alert('hello');
+// }
+
+var buttoni2=document.getElementById('btn2');
+
+buttoni2.onmouseover=function(){
+    alert('byee');
+}
+
+var buttoni3=document.getElementById('btn3');
+buttoni3.onmouseleave=function(){
+    alert('good bye');
+}
+
+var button=document.getElementById('btn1');
+
+var txt1=document.getElementById('txt1');
+
+button.onclick=function(){
+    txt1.style.color="red";
+    txt1.style.backgroundColor="lightgrey";
+    txt1.style.textAlign="center";
+    txt1.style.padding="20px";
+    txt1.style.fontSize="100px"
+}

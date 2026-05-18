@@ -1,4 +1,4 @@
-/* Resetimi i Stileve Bazë */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     background-color: #ffffff;
 }
 
-/* Navigimi */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ body {
     color: #ff4d4d;
 }
 
-/* Seksioni Hero */
+
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('unsplash.com') no-repeat center center/cover;
@@ -81,7 +81,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* Butonat */
+
 .btn {
     display: inline-block;
     background-color: #ff4d4d;
@@ -100,7 +100,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Seksionet e Përgjithshme */
+
 .section {
     padding: 80px 20px;
     max-width: 1100px;
@@ -129,7 +129,7 @@ body {
     max-width: 100%;
 }
 
-/* Struktura e Projekteve (Grid) */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -155,7 +155,7 @@ body {
     color: #111;
 }
 
-/* Forma e Kontaktit */
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -179,7 +179,7 @@ body {
     border-color: #ff4d4d;
 }
 
-/* Fundi (Footer) */
+
 footer {
     background-color: #111;
     color: #777;
@@ -188,7 +188,7 @@ footer {
     font-size: 14px;
 }
 
-/* Përshtatja për Celularë (Responsive) */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
